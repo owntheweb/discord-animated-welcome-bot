@@ -1,0 +1,40 @@
+{
+  "name": "discord-animated-welcome-bot",
+  "version": "0.1.0",
+  "description": "Welcome new guild members with an animated gif banner and message.",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly ./src/index.ts",
+    "prod": "tsc && node ./dist/index.js",
+    "start": "node src/index.js",
+    "watch": "tsc -p tsconfig.json -w",
+    "test": "mocha -r ts-node/register \"tests/**/*.spec.ts\""
+  },
+  "author": "Christopher L. Stevens",
+  "dependencies": {
+    "@types/node": "^12.0.12",
+    "canvas": "^2.5.0",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.0.0",
+    "gif-encoder": "^0.7.2",
+    "gif-encoder-2": "^1.0.3",
+    "gifencoder": "^2.0.1",
+    "inversify": "^5.0.1",
+    "promise-queue": "^2.2.5",
+    "reflect-metadata": "^0.1.13",
+    "tslint-config-airbnb": "^5.11.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/promise-queue": "^2.2.0",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-mockito": "^2.3.1",
+    "ts-node": "^8.3.0",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2"
+  }
+}
