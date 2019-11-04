@@ -1,8 +1,8 @@
 # Discord Animated Gif Banner Welcome Bot
 
-![welcome bot preview](https://raw.githubusercontent.com/owntheweb/discord-animated-welcome-bot/master/img/example-discord.jpg)
-
 ![Pi Day LED display preview](https://raw.githubusercontent.com/owntheweb/discord-animated-welcome-bot/master/img/welcome.gif)
+
+![welcome bot preview](https://raw.githubusercontent.com/owntheweb/discord-animated-welcome-bot/master/img/example-discord.jpg)
 
 This was a "thin slice" experiment to welcome new members to a Discord guild via an animated gif banner while exploring Nodejs TypeScript and dependency injection with Inversify.
 
