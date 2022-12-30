@@ -30,7 +30,7 @@
     "@types/mocha": "^5.2.7",
     "@types/promise-queue": "^2.2.0",
     "chai": "^4.2.0",
-    "mocha": "^6.1.4",
+    "mocha": "^10.2.0",
     "ts-mockito": "^2.3.1",
     "ts-node": "^8.3.0",
     "ts-node-dev": "^1.0.0-pre.40",
